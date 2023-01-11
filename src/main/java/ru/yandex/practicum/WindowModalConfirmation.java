@@ -14,7 +14,7 @@ public class WindowModalConfirmation {
 
 
 
-public void ClickConfirmationOrderButton(){
+public void сlickConfirmationOrderButton(){
 
     webDriver.findElement(confirmationOrderButton).click();
 

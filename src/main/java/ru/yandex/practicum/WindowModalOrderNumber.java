@@ -13,7 +13,7 @@ public class WindowModalOrderNumber {
 
     private By OrderData = By.xpath("//div[@id='root']/div/div[2]/div[2]/div[4]");
 
-    public void WindowModalOrderNumberDisplayed(){
+    public void windowModalOrderNumberDisplayed(){
         webDriver.findElement(OrderData).isDisplayed();
 
     }

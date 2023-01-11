@@ -11,89 +11,104 @@ public class ImportantQuestions extends TestBase {
 
 
   @Test
-    public void CheckImportantQuestions(){
+    public void сheckImportantQuestions0() {
 
     MainPage mainPage = new MainPage(driver);
 
-      mainPage.open();
-      mainPage.clickCookieButton();
-      mainPage.clickAccordionHeading0();
-      mainPage.isDisplayedAccordionPanel0();
+    mainPage.open();
+    mainPage.clickCookieButton();
+    mainPage.clickAccordionHeading0();
+    mainPage.isDisplayedAccordionPanel0();
 
-      mainPage.clickAccordionHeading1();
-      mainPage.isDisplayedAccordionPanel1();
+  }
 
-      mainPage.clickAccordionHeading2();
-      mainPage.isDisplayedAccordionPanel2();
+  @Test
+  public void сheckImportantQuestions1() {
 
-      mainPage.clickAccordionHeading3();
-      mainPage.isDisplayedAccordionPanel3();
+    MainPage mainPage = new MainPage(driver);
 
-      mainPage.clickAccordionHeading4();
-      mainPage.isDisplayedAccordionPanel4();
+    mainPage.open();
+    mainPage.clickCookieButton();
+    mainPage.clickAccordionHeading1();
+    mainPage.isDisplayedAccordionPanel1();
 
-      mainPage.clickAccordionHeading5();
-      mainPage.isDisplayedAccordionPanel5();
+  }
 
-      mainPage.clickAccordionHeading6();
-      mainPage.isDisplayedAccordionPanel6();
+  @Test
+  public void сheckImportantQuestions2() {
 
-      mainPage.clickAccordionHeading7();
-      mainPage.isDisplayedAccordionPanel7();
+    MainPage mainPage = new MainPage(driver);
 
+    mainPage.open();
+    mainPage.clickCookieButton();
+    mainPage.clickAccordionHeading2();
+    mainPage.isDisplayedAccordionPanel2();
 
+  }
 
+  @Test
+  public void сheckImportantQuestions3() {
 
+    MainPage mainPage = new MainPage(driver);
 
+    mainPage.open();
+    mainPage.clickCookieButton();
+    mainPage.clickAccordionHeading3();
+    mainPage.isDisplayedAccordionPanel3();
 
+  }
 
+  @Test
+  public void сheckImportantQuestions4() {
 
-    //  for (int i=0; i<=7; i = i+1){
-    //  driver.findElement(By.xpath("//div[@id='accordion__heading-'"[i]"']")).click();
-    //  boolean isDisplayedPanel= driver.findElement(By.id("accordion__panel-[i]")).isDisplayed();
-    //  assertTrue(isDisplayedPanel);
-    //}
+    MainPage mainPage = new MainPage(driver);
 
+    mainPage.open();
+    mainPage.clickCookieButton();
+    mainPage.clickAccordionHeading4();
+    mainPage.isDisplayedAccordionPanel4();
 
+  }
 
-      // driver.findElement(By.xpath("//div[@id='accordion__heading-0']")).click();
-      // boolean isDisplayedPanel0 = driver.findElement(By.id("accordion__panel-0")).isDisplayed();
-      // assertTrue(isDisplayedPanel0);
+  @Test
+  public void сheckImportantQuestions5() {
 
-      // driver.findElement(By.xpath("//div[@id='accordion__heading-1']")).click();
-      // boolean isDisplayedPanel1 = driver.findElement(By.id("accordion__panel-1")).isDisplayed();
-      // assertTrue(isDisplayedPanel1);
+    MainPage mainPage = new MainPage(driver);
 
-      //driver.findElement(By.xpath("//div[@id='accordion__heading-2']")).click();
-      //boolean isDisplayedPanel2 = driver.findElement(By.id("accordion__panel-2")).isDisplayed();
-      //assertTrue(isDisplayedPanel2);
+    mainPage.open();
+    mainPage.clickCookieButton();
+    mainPage.clickAccordionHeading5();
+    mainPage.isDisplayedAccordionPanel5();
 
-      //driver.findElement(By.xpath("//div[@id='accordion__heading-3']")).click();
-      //boolean isDisplayedPanel3 = driver.findElement(By.id("accordion__panel-3")).isDisplayed();
-      //assertTrue(isDisplayedPanel3);
+  }
 
-      //driver.findElement(By.xpath("//div[@id='accordion__heading-4']")).click();
-      //boolean isDisplayedPanel4 = driver.findElement(By.id("accordion__panel-4")).isDisplayed();
-      //assertTrue(isDisplayedPanel4);
+  @Test
+  public void сheckImportantQuestions6() {
 
-     // driver.findElement(By.xpath("//div[@id='accordion__heading-5']")).click();
-      //boolean isDisplayedPanel5 = driver.findElement(By.id("accordion__panel-5")).isDisplayed();
-      //assertTrue(isDisplayedPanel5);
+    MainPage mainPage = new MainPage(driver);
 
-      //driver.findElement(By.xpath("//div[@id='accordion__heading-6']")).click();
-      //boolean isDisplayedPanel6 = driver.findElement(By.id("accordion__panel-6")).isDisplayed();
-      //assertTrue(isDisplayedPanel6);
+    mainPage.open();
+    mainPage.clickCookieButton();
+    mainPage.clickAccordionHeading6();
+    mainPage.isDisplayedAccordionPanel6();
 
-      //driver.findElement(By.xpath("//div[@id='accordion__heading-7']")).click();
-      //boolean isDisplayedPanel7 = driver.findElement(By.id("accordion__panel-7")).isDisplayed();
-      //assertTrue(isDisplayedPanel7);
+  }
 
+  @Test
+  public void сheckImportantQuestions7() {
+
+    MainPage mainPage = new MainPage(driver);
+
+    mainPage.open();
+    mainPage.clickCookieButton();
+    mainPage.clickAccordionHeading7();
+    mainPage.isDisplayedAccordionPanel7();
 
   }
 
 
 
-
-
-
 }
+
+
+

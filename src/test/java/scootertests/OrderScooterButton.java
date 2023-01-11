@@ -63,11 +63,11 @@ import ru.yandex.practicum.*;
 
             WindowModalConfirmation windowModalConfirmation = new WindowModalConfirmation(driver);
 
-            windowModalConfirmation.ClickConfirmationOrderButton();
+            windowModalConfirmation.сlickConfirmationOrderButton();
 
             WindowModalOrderNumber windowModalOrderNumber = new WindowModalOrderNumber(driver);
 
-            windowModalOrderNumber.WindowModalOrderNumberDisplayed();
+            windowModalOrderNumber.windowModalOrderNumberDisplayed();
 
 
         }
@@ -82,7 +82,7 @@ import ru.yandex.practicum.*;
 
         mainPage.open();
         mainPage.clickCookieButton();
-        mainPage.clickButtonOrderHeader();
+        mainPage.clickButtonOrderCenter();
 
         PageInputPersonData pageInputPersonData = new PageInputPersonData(driver);
 
@@ -102,11 +102,11 @@ import ru.yandex.practicum.*;
 
         WindowModalConfirmation windowModalConfirmation = new WindowModalConfirmation(driver);
 
-        windowModalConfirmation.ClickConfirmationOrderButton();
+        windowModalConfirmation.сlickConfirmationOrderButton();
 
         WindowModalOrderNumber windowModalOrderNumber = new WindowModalOrderNumber(driver);
 
-        windowModalOrderNumber.WindowModalOrderNumberDisplayed();
+        windowModalOrderNumber.windowModalOrderNumberDisplayed();
 
 
     }

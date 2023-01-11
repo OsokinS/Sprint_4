@@ -9,7 +9,7 @@ public class MainPage {
     }
     private final WebDriver webDriver;
 
-    private By CookieButton = By.className("App_CookieButton__3cvqF");
+    private By cookieButton = By.className("App_CookieButton__3cvqF");
     private By accordionHeading0 = By.xpath("//div[@id='accordion__heading-0']");
     private By accordionHeading1 = By.xpath("//div[@id='accordion__heading-1']");
     private By accordionHeading2 = By.xpath("//div[@id='accordion__heading-2']");
@@ -21,11 +21,11 @@ public class MainPage {
 
     private By orderButtonHeader = By.className("Button_Button__ra12g");
 
-    private By orderButtonCenter = By.className("Button_Button__ra12g Button_Middle__1CSJM");
+    private By orderButtonCenter = By.xpath("//div[@id='root']/div/div/div[4]/div[2]/div[5]/button");
 
 
     public void clickCookieButton(){
-        webDriver.findElement(CookieButton).click();
+        webDriver.findElement(cookieButton).click();
     }
 
     public void clickAccordionHeading0() {
